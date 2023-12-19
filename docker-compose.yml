@@ -6,4 +6,3 @@ services:
       - "8084:80"
     volumes:
       - /var/lib/docker/volumes/vol_docker/_data:/var/www/html/php
-    command: bash -C "service apache2 start && tail -f /dev/null"
